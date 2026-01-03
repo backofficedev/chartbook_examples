@@ -1,2 +1,8 @@
 
 .DS_Store
+
+.doit-db.sqlite
+
+__pycache__/
+
+docs/
