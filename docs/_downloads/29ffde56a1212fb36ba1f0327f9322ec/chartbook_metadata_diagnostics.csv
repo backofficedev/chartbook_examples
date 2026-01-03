@@ -1,0 +1,14 @@
+Name,Metadata Complete,Object Type,Identifier,Pipeline,Missing Fields,Page Link
+Example Charts from FRED,False,pipeline,fred_charts,fred_charts,git_repo_URL,../index.html
+FRED Economic Data,True,dataframe,fred,fred_charts,,../dataframes/fred_charts/fred.html
+GDP Over Time,True,chart,gdp_chart,fred_charts,,../charts/fred_charts.gdp_chart.html
+Unemployment Rate Over Time,True,chart,unemployment_chart,fred_charts,,../charts/fred_charts.unemployment_chart.html
+Yield Curve Analysis,False,pipeline,yield_curve,yield_curve,"build_commands, os_compatibility, git_repo_URL",../index.html
+Public Repo Data,True,dataframe,repo_public,yield_curve,,../dataframes/yield_curve/repo_public.html
+Fed Yield Curve,True,dataframe,fed_yield_curve,yield_curve,,../dataframes/yield_curve/fed_yield_curve.html
+Term Premium,True,dataframe,term_premium,yield_curve,,../dataframes/yield_curve/term_premium.html
+Repo Rates,False,chart,repo_rates,yield_curve,data_release_timing,../charts/yield_curve.repo_rates.html
+Current Yield Curve,True,chart,yield_curve_current,yield_curve,,../charts/yield_curve.yield_curve_current.html
+Term Premium (10Y-1Y),True,chart,term_premium_10y_1y,yield_curve,,../charts/yield_curve.term_premium_10y_1y.html
+Term Premium (10Y-2Y),True,chart,term_premium_10y_2y,yield_curve,,../charts/yield_curve.term_premium_10y_2y.html
+Term Premium (10Y-3Y),True,chart,term_premium_10y_3y,yield_curve,,../charts/yield_curve.term_premium_10y_3y.html
